@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        .modal-backdrop{
+            z-index: 0 !important;
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-details</title>
+    <link
+    rel="stylesheet"
+    data-purpose="Layout StyleSheet"
+    title="Web Awesome"
+    href="/css/app-wa-3b8dc075f391c36d9c11006089749481.css?vsn=d"
+  >
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css"
+    >
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-solid.css"
+    >
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-regular.css"
+    >
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-light.css"
+    >
+    <link rel="stylesheet" href="/bootstrap.min.css">
+    <link rel="stylesheet" href="lightbox.min.css">
+    <link rel="stylesheet" href="/Product-details.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="Responsive.css">
+    <script src="/lightbox-plus-jquery.min.js"></script>
+    <script src="/gallery/jquery.fancyzoom.min.js"></script>
+    <script src="/gallery/jquery.ifixpng.js"></script>
+    <script src="/gallery/jquery.js"></script>
+    <script src="/gallery/jquery.shadow.jss"></script>
+    <script src="/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    
+    <section class="p-2 header-up w-100 mw-100" style="background-color:  #dc3545;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 text-center text-md-start">
+                    <div class="">
+                        <span class="hvr-up">
+                            <a class="text-white me-2" style="text-decoration: none;" href="#">
+                                <i class="fa-solid fa-phone"></i>
+                                +8801768-909667
+                            </a>
+                        </span>
+                        <span class="hvr-up">
+                            <a class="text-white" style="text-decoration: none;" href="#"> 
+                                <i class="fa-sharp fa-solid fa-envelope"></i>
+                                bari.gbl@gmail.com
+                            </a>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 text-md-end d-md-block d-none">
+                    <span class="hvr-up">
+                        <a class="text-white p-2" href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </span>
+                    <span class="hvr-up">
+                        <a class="text-white p-2" href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </span>
+                    <span class="hvr-up">
+                        <a class="text-white p-2" href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                    </span>
+                        
+                    <span class="hvr-up">
+                        <a class="text-white p-2" href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sticky-top">
+        <nav class="navbar navbar-expand-xl navbar-light bg-light menu">
+            <div class="container-fluid">
+                <div class="navbar-brand"> 
+                    <div class="logo-img ">
+                        <a href="#">
+                            <img class="mw-100 me-2" style="width: 12rem;" src="image/Artboard.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo2" aria-controls="navbarTogglerDemo2" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse drp-category" id="navbarTogglerDemo2">
+                    <ul class="navbar-nav gap-4 me-auto mb-2 mb-xl-0">
+                        <li class="nav-item ">
+                            <a class="nav-link text-dark menu-hvr" aria-current="page" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark menu-hvr" aria-current="page" href="/About.html">About Us </a>
+                        </li>
+                        <li class="nav-item mn-hvr drp-category-menu">
+                            <a class="nav-link text-dark menu-hvr text-decoration-none" href="#">
+                                Our Project
+                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </a>
+                            <div class="drp-menu" style="font-size: 14px;">
+                                <a href="ongoing.html">ONGOING PROJECT</a>
+                                <a href="#">COMPLETED PROJECT</a>
+                                <a href="#">UPCOMING PROJECT</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark menu-hvr" aria-current="page" href="Media.html">Media</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark menu-hvr" aria-current="page" href="/Contact.html">Contact Us</a>
+                        </li> 
+                    </ul>
+                </div>
+
+                <form class="d-none d-md-block d-md-flex">
+                    <input class="form-control me-2 scrh" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-danger" type="submit">Search</button>
+                </form>
+                <div>
+                    <button type="button" class="btn btn-danger ms-2" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap"><i class="fa fa-user"></i></button>
+    
+                    <div class="modal fade" style="z-index: 0 !important;" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form class="p-2" action="">
+                                        <label for="username">Username</label>
+                                        <input class="form-control mb-3" type="text" placeholder="Username">
+                                        <label for="username">Password</label>
+                                        <input class="form-control mb-3" type="password" placeholder="Password">
+                                        <div class="text-end">
+                                            <button type="button" class="btn btn-danger">Log in</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <h1 class="text-danger">Aura</h1>
+                    <p>PREMIUM CLASS APARTMENTS IN JVC DUBAI</p>
+                    <hr>
+                    <p><strong>BUILDING DESCRIPTION</strong></p>
+                    <ul>
+                        <li>Building face & Road size: East facing with 80 feet wide road.</li>
+                        <li>Building Height: 11 Storied (B+G+09).</li>
+                        <li>Ground Floor for Car Parking.</li>
+                        <li>Ground Floor for Car Parking.</li>
+                        <li>Unit Size: Type A- 1895 sft, Type B- 1640 sft and Type C- 1950 sft (Approx).</li>
+                        <li>Unit Details: Each flat consist of 3 Beds, Living, Dining, Balconies, 3/4 Toilets & Kitchen.</li>
+                        <li>Community Hall, Swimming Pool & Garden at Rooftop.</li>
+                        <li>02 Passengers Lifts & 02 Stairs.</li>
+                        <li>Firefighting arrangement</li>
+                        <li>CCTV and Lightning Protection System.</li>
+                        <li>Stand by Generator.</li>
+                        <li>Own water supply arrangement.</li>
+                        <li>Mosque, Playground for Child.</li>
+                    </ul>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <img class="mw-100" src="image/Aura.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <h4 class="text-center text-danger pb-5">See It In Action</h4>
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                    <div class="card border-0 mb-3 w-100 h-100 text-center">
+                        <a class="example-image-link" href="image/Aura.jpg" data-lightbox="example-set" data-title="">
+                            <img class="example-image mw-100" style="width: 25rem; height: 25rem;" src="image/Aura.jpg" alt="" />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                    <div class="card border-0 mb-3 w-100 h-100 text-center">
+                        <a class="example-image-link" href="image/VISTA-Al-Aksha.jpg" data-lightbox="example-set" data-title="">
+                            <img class="example-image mw-100" style="width: 25rem; height: 25rem;" src="image/VISTA-Al-Aksha.jpg" alt="" />
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                    <div class="card border-0 mb-3 w-100 h-100 text-center">
+                        <a class="example-image-link" href="image/Basement-1.jpg" data-lightbox="example-set" data-title="">
+                            <img class="example-image mw-100" style="width: 25rem; height: 25rem;" src="image/Basement-1.jpg" alt="" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h1 class="fw-bold">Others Project</h1>
+            </div>
+            <div class="row">
+                <div class="col-6 col-md-4 mb-5">
+                    <div class="card border-0 rounded-0 text-center img-item overflow-hidden"> 
+                        <a class="card-img-top" href="Projects-details.html">
+                            <img class="mw-100 img-hover" style="width: 100%; height: 22rem;"  src="image/aria-grovy-2.jpg" alt="">
+                        </a>
+                        <div class="card-body">
+                            <span><a class="fs-5 fw-bold text-dark text-decoration-none" href="#">AIRA</a></span>
+                            <p class="fs-6">A WONDERFULLY DESIGNED APARTMENT</p>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col-6 col-md-4  mb-5">
+                    <div class="card border-0 rounded-0 text-center img-item overflow-hidden"> 
+                        <a class="card-img-top" href="Projects-details.html">
+                            <img class="mw-100 img-hover" style="width: 100%; height: 22rem;" src="image/Aura.jpg" alt="">
+                        </a>
+                        <div class="card-body">
+                            <span><a class="fs-5 fw-bold text-dark text-decoration-none" href="#">Aura</a></span>
+                            <p class="fs-6">PREMIUM CLASS APARTMENTS IN JVC DUBAI</p>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col-6 col-md-4 mb-5">
+                    <div class="card border-0 rounded-0 text-center img-item overflow-hidden"> 
+                        <a class="card-img-top" href="Projects-details.html">
+                            <img class="mw-100 img-hover" style="width: 100%; height: 22rem;"  src="image/aria-grovy-2.jpg" alt="">
+                        </a>
+                        <div class="card-body">
+                            <span><a class="fs-5 fw-bold text-dark text-decoration-none" href="#">AIRA</a></span>
+                            <p class="fs-6">A WONDERFULLY DESIGNED APARTMENT</p>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer bg-dark py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
+                    <div>
+                        <h3 class="fw-bold text-white mb-5">About Us</h3>
+                        <p class="text-white mb-5">
+                            Red Brick Properties Real Estate Development LLC is a name that is synonymous with elegance, innovation and luxury. The group holds pride in its uncompromising commitment of serving excellent real estate projects that exemplify perfection. They believe creating milestones through awe-inspiring projects.
+                        </p>
+                        <img class="w-50" src="image/Artboard.png" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
+                    <div class="text-white">
+                        <h3 class="fw-bold mb-5">Marketing Department</h3>
+                        <div class="">
+                            <li class="mb-2" style="list-style: none;">+880 1768-909667</li>
+                            <span>Working Hours <br> Sat – Thu : 10 am to 8 pm</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
+                    <div class="text-white">
+                        <h3 class="fw-bold mb-5">Contact Us</h3>
+                        <div class="mb-5">
+                            <span class="text-danger"><i class="fa-solid fa-house pe-2"></i></span>
+                            <span>
+                                MS Tower, 113, Vodra More<br>Padma R/A, Rajshahi.
+                            </span> <br>
+                            <span class="text-danger">
+                                <i class="fa-solid fa-envelope pe-2"></i>
+                                <a class="text-white" style="text-decoration: none;" href="#">bari.gbl@gmail.com</a>
+                            </span> <br>
+                            <span class="text-danger">
+                                <i class="fa-solid fa-phone pe-2"></i>
+                                <a class="text-white" style="text-decoration: none;" href="#">
+                                    +880 1768-909667
+                                </a>                            
+                            </span>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="fw-bold">Newsletter</h3>
+                        <form class="d-flex frm" action="">
+                            <input class="form-control rounded-pill w-75 py-2" type="search" placeholder="Your email address" aria-label="Search">
+                            <button class="btn btn-danger rounded-pill src" type="submit">
+                                <i class="fa-solid fa-arrow-right px-3 py-2"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-4" style="background-color:  #dc3545;">
+        <div class="container-fluid">
+            <div class="row">             
+                <div class="col-12 col-sm-12 col-md-6 mw-100 mb-4 mb-md-0 text-center text-md-start">                  
+                    <span class="hvr-up">
+                        <a class="text-white p-2 fs-4" href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </span>
+                    <span class="hvr-up">
+                        <a class="text-white p-2 fs-4" href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </span>
+                    <span class="hvr-up">
+                        <a class="text-white p-2 fs-4" href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                    </span>
+                        
+                    <span class="hvr-up">
+                        <a class="text-white p-2 fs-4" href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </span>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 mw-100 ">
+                    <div class="text-white text-center text-md-end fs-5">
+                        &copy;All Right Reserved By Red Brick
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

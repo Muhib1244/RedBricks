@@ -1,0 +1,6 @@
+ <div class="col-md-4">
+                            <!-- Adjust the column size as needed -->
+                            <a class="example-image-link" href="@item.DocumentPath" data-lightbox="example-set" data-title="@item.Title"><img class="example-image" src="@item.DocumentPath" style="height: 200px; width: 200px;" alt="" /></a>
+
+                            <p>@item.Title</p>
+                        </div>

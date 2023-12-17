@@ -1,0 +1,70 @@
+@media (max-width: 1068px) {
+    .drp-category ul li a{
+        font-size: .9rem !important;
+    }
+}
+@media (max-width: 1032px) {
+    .drp-category ul li a{
+        font-size: .8rem !important;
+    }
+}
+@media (max-width: 998px) {
+    .drp-category ul li a{
+        font-size: .7rem !important;
+    }
+}
+@media (max-width: 955px) {
+    .new-arrivel-option span a{
+        font-size: 1rem !important;
+    }
+}
+@media (max-width: 850px) {
+    .new-arrivel-option span a{
+        font-size: .9rem !important;
+    }
+}
+@media (max-width: 808px) {
+    .new-arrivel-option span a{
+        font-size: .8rem !important;
+    }
+    .frm{
+        position: relative;
+    }
+    .frm input{
+        font-size: .9rem !important;
+        width: 55% !important;
+    }
+    .src {
+        position: absolute;
+        top: 0px;
+        right: 116px;
+        font-size: .9rem !important;
+        padding: 5px 12px;
+    }
+}
+@media (max-width: 768px) {
+    .safe-way-title h4{
+        font-size: 1.2rem !important;
+    } 
+    .safe-way-title h3{
+        font-size: 1.2rem !important;
+    } 
+    .safe-way-title p{
+        font-size: 2.2rem !important;
+    } 
+    .safe-way {
+        padding: 70px 0;
+    }
+    .new-arrivel-title h2{
+        font-size: 2.2rem !important;
+    }
+    .card-body span a{
+        font-size: 1rem !important;
+    }
+    .card-body p{
+        font-size: .8rem !important;
+    }
+    .custommer-says-title p{
+        font-size: 1rem !important;
+    }
+}
